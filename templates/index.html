@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Dubbing Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head> 
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#index.html">Video Dubbing Tool</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#index.html">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="{{ url_for('upload') }}">Get Started</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+
+            <h1>Dub Your Videos Effortlessly</h1>
+            <p>Transform your English videos into multiple Indian languages.</p>
+            <a href="{{ url_for('upload') }}" class="cta-button">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2>Why Choose Our Dubbing Tool?</h2>
+        <p class="feature-intro">Our advanced AI-driven technology ensures smooth and natural dubbing, enhancing your content's reach and quality.</p>
+
+        <div class="feature-list">
+            <div class="feature-card">
+                <i class="fas fa-upload"></i>
+                <h3>Seamless Video Upload</h3>
+                <p>Quickly upload your videos in any format and let our AI handle the rest.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-language"></i>
+                <h3>Multi-Language Support</h3>
+                <p>Dub your content into Hindi, Tamil, Telugu, Marathi, and more with precision.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-volume-up"></i>
+                <h3>Human-Like Voices</h3>
+                <p>AI-powered voice synthesis provides realistic and professional-quality dubbing.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-clock"></i>
+                <h3>Fast Processing</h3>
+                <p>Our optimized backend ensures your dubbed video is ready within minutes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <h3>Step 1: Upload Video</h3>
+                <p>Select and upload your video in any format.</p>
+            </div>
+            <div class="step">
+                <i class="fas fa-language"></i>
+                <h3>Step 2: Choose Language</h3>
+                <p>Pick from multiple Indian languages.</p>
+            </div>
+            <div class="step">
+                <i class="fas fa-check-circle"></i>
+                <h3>Step 3: Download & Enjoy</h3>
+                <p>Receive your perfectly dubbed video within minutes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <p>"This tool changed the way I create content!"</p>
+                <span>- Aditya</span>
+            </div>
+            <div class="testimonial">
+                <p>"I love how easy it is to dub my videos."</p>
+                <span>- Amit</span>
+            </div>
+            <div class="testimonial">
+                <p>"The dubbing quality is so professional. Highly recommended!"</p>
+                <span>- Priya</span>
+            </div>
+        </div>
+    </section>
+    <!-- CTA Section -->
+    <footer class="cta-section">
+        <h2>Ready to Start Dubbing?</h2>
+        <a href="{{ url_for('upload') }}" class="cta-button">Try It Now</a>
+    </footer>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>Video Dubbing Tool</h3>
+                <p>Transform your videos with AI-powered dubbing.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#index.html">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="{{ url_for('upload') }}">Get Started</a></li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <h4>Follow Us</h4>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2025 Video Dubbing Tool. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
