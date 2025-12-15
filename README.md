@@ -92,7 +92,7 @@ AI-Video-Dubbing-Website/
 - pip
 - Internet connection (required for speech recognition and translation APIs)
 
-1. Clone the repository:
+1.Clone the repository:
 git clone https://github.com/your-username/ai-video-dubbing-website.git
 cd ai-video-dubbing-website
 
