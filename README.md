@@ -92,13 +92,11 @@ AI-Video-Dubbing-Website/
 - pip
 - Internet connection (required for speech recognition and translation APIs)
 
-  1. Clone the repository:
-bash
+1. Clone the repository:
 git clone https://github.com/your-username/ai-video-dubbing-website.git
 cd ai-video-dubbing-website
 
 2.Install required dependencies:
-bash
 pip install flask moviepy speechrecognition googletrans gtts pydub opencv-python pillow numpy
 
 3.Run the Flask application:
